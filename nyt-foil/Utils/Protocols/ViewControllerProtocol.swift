@@ -24,6 +24,7 @@ extension ViewControllerProtocol where Self: UIViewController {
     }
     
     func showError(with message: String, cancelButtonTitle: String = "OK", actionButtonTitle: String?, actionHandler: (() -> Void)?) {
+        stopAnimating()
         let alert = UIAlertController(title: "NYT", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: cancelButtonTitle, style: .cancel, handler: nil))
         if let actionTitle = actionButtonTitle {
