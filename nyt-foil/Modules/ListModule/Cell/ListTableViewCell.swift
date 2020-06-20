@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ListTableViewCell: UITableViewCell, CellProtocol {
     
@@ -41,9 +42,9 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     private lazy var labelAbstract: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .darkGray
+        label.textColor = .lightGray
         label.numberOfLines = 0
-        label.font = UIFont.systemFont(ofSize: Constants.LabelAbstract.fontSize)
+        label.font = UIFont.italicSystemFont(ofSize: Constants.LabelAbstract.fontSize)
         return label
     }()
     
@@ -51,6 +52,8 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
        let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
+        imageView.image = UIImage(named: "img_thumbnail")
+        imageView.kf.indicatorType = .activity
         return imageView
     }()
     
@@ -58,6 +61,7 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        selectionStyle = .none
         setupSubviews()
     }
     
@@ -69,6 +73,9 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     
     override func prepareForReuse() {
         super.prepareForReuse()
+        imgView.image = UIImage(named: "img_thumbnail")
+        labelNumber.text = nil
+        labelAbstract.text = nil
     }
     
     // MARK: - Cell Protocol
@@ -78,6 +85,14 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     func configureCell(object: NYTArticle) {
         labelNumber.text = object.section + " " + object.subsection
         labelAbstract.text = object.abstract
+        if let media = object.photos.first {
+            if let photo = media.metadata.first(where: { $0.size == .triple }) {
+                let processor = RoundCornerImageProcessor(cornerRadius: Constants.edge)
+                imgView.kf.setImage(with: URL(string: photo.url),
+                                    placeholder: UIImage(named: "img_thumbnail"),
+                                    options: [.processor(processor), .transition(.fade(1))])
+            }
+        }
     }
     
     // MARK: - Private Functions
@@ -96,18 +111,18 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     private func setupLabelNumberConstraints() {
         NSLayoutConstraint.activate([
             labelNumber.topAnchor.constraint(equalTo: contentView.topAnchor),
-            labelNumber.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -Constants.edge),
-            labelNumber.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: Constants.edge),
+            labelNumber.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            labelNumber.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             labelNumber.heightAnchor.constraint(equalToConstant: Constants.LabelNumber.height)
         ])
     }
     
     private func setupLabelAbstractConstraints() {
         NSLayoutConstraint.activate([
-            labelAbstract.topAnchor.constraint(equalTo: labelNumber.bottomAnchor, constant: Constants.edge),
-            labelAbstract.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -Constants.edge),
+            labelAbstract.topAnchor.constraint(equalTo: labelNumber.bottomAnchor),
+            labelAbstract.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             labelAbstract.bottomAnchor.constraint(equalTo: imgView.topAnchor, constant: -Constants.edge),
-            labelAbstract.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: Constants.edge)
+            labelAbstract.leadingAnchor.constraint(equalTo: contentView.leadingAnchor)
         ])
     }
     
