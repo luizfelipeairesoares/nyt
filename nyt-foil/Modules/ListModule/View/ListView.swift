@@ -17,10 +17,12 @@ class ListView: UIView {
     }
     
     lazy var tableView: UITableView = {
-        let tableView = UITableView()
+        let tableView = UITableView(frame: .zero, style: .grouped)
+        tableView.backgroundColor = .white
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.estimatedRowHeight = 208
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.separatorStyle = .none
         tableView.register(ListTableViewCell.self, forCellReuseIdentifier: "ListTableViewCell")
         tableView.tableFooterView = UIView(frame: .zero)
         return tableView
