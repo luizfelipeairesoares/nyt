@@ -21,9 +21,9 @@ struct ArticlesService: ArticlesServiceProtocol {
         request(.viewed) { (result: Result<NYTAPIResponse, NYTAPIError>) in
             switch result {
             case .success(let response):
-                print(response)
+                completion(.success(response))
             case .failure(let error):
-                print(error.localizedDescription)
+                completion(.failure(error))
             }
         }
     }
