@@ -12,6 +12,9 @@ target 'nyt-foil' do
 
   # API
   pod 'Moya', '~> 13.0'
+  
+  #UI
+  pod 'Kingfisher', '~> 5.0'
 
   target 'nyt-foilTests' do
     inherit! :search_paths
