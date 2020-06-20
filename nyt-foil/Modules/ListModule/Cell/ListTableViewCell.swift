@@ -29,6 +29,11 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
             static let width: CGFloat = 440
             static let height: CGFloat = 293
         }
+        
+        enum LabelCopyright {
+            static let height: CGFloat = 24.0
+            static let fontSize: CGFloat = 12.0
+        }
     }
     
     private lazy var labelNumber: UILabel = {
@@ -57,6 +62,18 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
         return imageView
     }()
     
+    private lazy var labelCopyright: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.numberOfLines = 2
+        label.minimumScaleFactor = 0.8
+        label.adjustsFontSizeToFitWidth = true
+        label.textAlignment = .right
+        label.textColor = .lightGray
+        label.font = UIFont.italicSystemFont(ofSize: Constants.LabelCopyright.fontSize)
+        return label
+    }()
+    
     // MARK: - Init
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -76,6 +93,7 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
         imgView.image = UIImage(named: "img_thumbnail")
         labelNumber.text = nil
         labelAbstract.text = nil
+        labelCopyright.text = nil
     }
     
     // MARK: - Cell Protocol
@@ -87,6 +105,7 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
         labelAbstract.text = object.abstract
         if let media = object.photos.first {
             if let photo = media.metadata.first(where: { $0.size == .triple }) {
+                labelCopyright.text = media.copyright
                 let processor = RoundCornerImageProcessor(cornerRadius: Constants.edge)
                 imgView.kf.setImage(with: URL(string: photo.url),
                                     placeholder: UIImage(named: "img_thumbnail"),
@@ -100,6 +119,9 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     private func setupSubviews() {
         contentView.addSubview(labelNumber)
         setupLabelNumberConstraints()
+        
+        contentView.addSubview(labelCopyright)
+        setupLabelCopyrightConstraints()
         
         contentView.addSubview(imgView)
         setupImgViewConstraints()
@@ -128,10 +150,19 @@ class ListTableViewCell: UITableViewCell, CellProtocol {
     
     private func setupImgViewConstraints() {
         NSLayoutConstraint.activate([
-            imgView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -(Constants.edge * 2)),
+            imgView.bottomAnchor.constraint(equalTo: labelCopyright.topAnchor, constant: -(Constants.edge)),
             imgView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
             imgView.widthAnchor.constraint(equalToConstant: Constants.ImgView.width),
             imgView.heightAnchor.constraint(equalToConstant: Constants.ImgView.height)
+        ])
+    }
+    
+    private func setupLabelCopyrightConstraints() {
+        NSLayoutConstraint.activate([
+            labelCopyright.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -(Constants.edge)),
+            labelCopyright.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            labelCopyright.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            labelCopyright.heightAnchor.constraint(equalToConstant: Constants.LabelCopyright.height)
         ])
     }
 
