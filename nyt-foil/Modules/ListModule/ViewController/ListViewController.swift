@@ -49,7 +49,7 @@ class ListViewController: UIViewController, ListViewProtocol {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - View Functions
+    // MARK: - ViewController Functions
     
     override func loadView() {
         view = mainView
@@ -141,6 +141,9 @@ extension ListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        
+        let detail = DetailViewController(with: articles[indexPath.section])
+        navigationController?.pushViewController(detail, animated: true)
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
