@@ -16,7 +16,7 @@ enum ListViewType {
     
 }
 
-protocol ListViewProtocol: AnyObject {
+protocol ListViewProtocol: ViewControllerProtocol {
     
     init(with type: ListViewType)
     
@@ -29,6 +29,7 @@ class ListViewController: UIViewController, ListViewProtocol {
     private lazy var mainView: ListView = {
         let view = ListView()
         view.tableView.dataSource = self
+        view.tableView.delegate = self
         return view
     }()
     
@@ -82,7 +83,9 @@ class ListViewController: UIViewController, ListViewProtocol {
                 self?.articles.append(contentsOf: response.results)
                 self?.mainView.tableView.reloadData()
             case .failure(let error):
-                print(error)
+                self?.showError(with: error.localizedDescription, actionButtonTitle: "Retry", actionHandler: { [weak self] in
+                    self?.requestArticles()
+                })
             }
         }
     }
@@ -103,6 +106,32 @@ extension ListViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListTableViewCell", for: indexPath) as! ListTableViewCell
         cell.configureCell(object: articles[indexPath.section])
         return cell
+    }
+    
+}
+
+extension ListViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return nil
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 0.0
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let view = UIView(frame: .zero)
+        view.backgroundColor = .black
+        return view
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 8.0
     }
     
 }
