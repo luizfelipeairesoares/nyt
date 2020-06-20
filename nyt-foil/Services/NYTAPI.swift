@@ -11,9 +11,9 @@ import Moya
 
 enum NYTAPI {
     
-    case emailed
-    case shared
-    case viewed
+    case emailed(period: Int)
+    case shared(period: Int)
+    case viewed(period: Int)
     
 }
 
@@ -25,12 +25,12 @@ extension NYTAPI: TargetType {
     
     var path: String {
         switch self {
-        case .emailed:
-            return "svc/mostpopular/v2/emailed/7.json"
-        case .shared:
-            return "svc/mostpopular/v2/shared/7.json"
-        case .viewed:
-            return "svc/mostpopular/v2/viewed/7.json"
+        case .emailed(let period):
+            return "svc/mostpopular/v2/emailed/\(period).json"
+        case .shared(let period):
+            return "svc/mostpopular/v2/shared/\(period).json"
+        case .viewed(let period):
+            return "svc/mostpopular/v2/viewed/\(period).json"
         }
     }
     
