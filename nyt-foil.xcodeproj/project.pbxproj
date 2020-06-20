@@ -13,6 +13,7 @@
 		55134F54249E4F96005A7E70 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F53249E4F96005A7E70 /* ListView.swift */; };
 		55134F57249E5294005A7E70 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F56249E5294005A7E70 /* ListTableViewCell.swift */; };
 		55134F5A249E52F4005A7E70 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F59249E52F4005A7E70 /* CellProtocol.swift */; };
+		55134F5C249E9854005A7E70 /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */; };
 		55EBF002249AD3B800F3B0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBF001249AD3B800F3B0F1 /* AppDelegate.swift */; };
 		55EBF004249AD3B800F3B0F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBF003249AD3B800F3B0F1 /* SceneDelegate.swift */; };
 		55EBF00B249AD3BA00F3B0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EBF00A249AD3BA00F3B0F1 /* Assets.xcassets */; };
@@ -51,7 +52,8 @@
 		55134F53249E4F96005A7E70 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		55134F56249E5294005A7E70 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		55134F59249E52F4005A7E70 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
-		55EBEFFE249AD3B800F3B0F1 /* nyt-foil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nyt-foil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		55EBEFFE249AD3B800F3B0F1 /* NYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EBF001249AD3B800F3B0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EBF003249AD3B800F3B0F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55EBF00A249AD3BA00F3B0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				55134F59249E52F4005A7E70 /* CellProtocol.swift */,
+				55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -183,7 +186,7 @@
 		55EBEFFF249AD3B800F3B0F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55EBEFFE249AD3B800F3B0F1 /* nyt-foil.app */,
+				55EBEFFE249AD3B800F3B0F1 /* NYT.app */,
 				55EBF014249AD3BA00F3B0F1 /* nyt-foilTests.xctest */,
 			);
 			name = Products;
@@ -341,7 +344,7 @@
 			);
 			name = "nyt-foil";
 			productName = "nyt-foil";
-			productReference = 55EBEFFE249AD3B800F3B0F1 /* nyt-foil.app */;
+			productReference = 55EBEFFE249AD3B800F3B0F1 /* NYT.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55EBF013249AD3BA00F3B0F1 /* nyt-foilTests */ = {
@@ -501,6 +504,7 @@
 				55EBF037249AE2FC00F3B0F1 /* BaseService.swift in Sources */,
 				55EBF042249AE88300F3B0F1 /* NYTAPIResponse.swift in Sources */,
 				55EBF040249AE81600F3B0F1 /* NYTMediaMetadata.swift in Sources */,
+				55134F5C249E9854005A7E70 /* ViewControllerProtocol.swift in Sources */,
 				55EBF030249ADF9D00F3B0F1 /* NYTAPI.swift in Sources */,
 				55EBF03E249AE76B00F3B0F1 /* NYTMedia.swift in Sources */,
 				55EBF002249AD3B800F3B0F1 /* AppDelegate.swift in Sources */,
@@ -649,14 +653,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "nyt-foil/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luizfelipeairesoares.nyt-foil";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NYT;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -667,14 +672,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "nyt-foil/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luizfelipeairesoares.nyt-foil";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NYT;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
