@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import NVActivityIndicatorView
 
-protocol ViewControllerProtocol: AnyObject {
+protocol ViewControllerProtocol: AnyObject, NVActivityIndicatorViewable {
     
+    func showLoading()
+    func reloadData()
     func showError(with message: String, cancelButtonTitle: String, actionButtonTitle: String?, actionHandler: (() -> Void)?)
     
 }
 
 extension ViewControllerProtocol where Self: UIViewController {
+    
+    func showLoading() {
+        startAnimating(type: .ballScaleMultiple, color: .black)
+    }
     
     func showError(with message: String, cancelButtonTitle: String = "OK", actionButtonTitle: String?, actionHandler: (() -> Void)?) {
         let alert = UIAlertController(title: "NYT", message: message, preferredStyle: .alert)
