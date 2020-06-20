@@ -25,6 +25,10 @@ struct NYTArticle: Decodable {
     let abstract: String
     let media: [NYTMedia]
     
+    var photos: [NYTMedia] {
+        return media.filter({ $0.subtype == "photo" })
+    }
+    
     private enum CodingKeys: String, CodingKey {
         case uri
         case url
