@@ -42,9 +42,26 @@ class ListView: UIView {
         tableView.estimatedRowHeight = 208
         tableView.rowHeight = UITableView.automaticDimension
         tableView.separatorStyle = .none
-        tableView.tableFooterView = UIView(frame: .zero)
         tableView.contentInset = UIEdgeInsets(top: -32.0, left: 0.0, bottom: 0.0, right: 0.0)
         tableView.register(ListTableViewCell.self, forCellReuseIdentifier: "ListTableViewCell")
+        
+        let label = UILabel(frame: CGRect(x: 0.0, y: 0.0, width: 0.0, height: 104.0))
+        label.numberOfLines = 3
+        
+        let blackString = NSAttributedString(string: "You're all caught up ✨",
+                                             attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 16.0),
+                                                          NSAttributedString.Key.foregroundColor : UIColor.black])
+        let grayString = NSAttributedString(string: "\n\nWe'll update your stories later today.",
+                                            attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 12.0),
+                                                         NSAttributedString.Key.foregroundColor : UIColor.lightGray])
+        
+        let mAttrString = NSMutableAttributedString(attributedString: blackString)
+        mAttrString.append(grayString)
+        
+        label.attributedText = mAttrString
+        
+        tableView.tableFooterView = label
+        
         return tableView
     }()
     
