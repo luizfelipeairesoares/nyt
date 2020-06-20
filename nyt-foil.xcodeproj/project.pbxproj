@@ -14,6 +14,8 @@
 		55134F57249E5294005A7E70 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F56249E5294005A7E70 /* ListTableViewCell.swift */; };
 		55134F5A249E52F4005A7E70 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F59249E52F4005A7E70 /* CellProtocol.swift */; };
 		55134F5C249E9854005A7E70 /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */; };
+		55134F5F249EAFA6005A7E70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F5E249EAFA6005A7E70 /* DetailViewController.swift */; };
+		55134F62249EAFBA005A7E70 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55134F61249EAFBA005A7E70 /* DetailView.swift */; };
 		55EBF002249AD3B800F3B0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBF001249AD3B800F3B0F1 /* AppDelegate.swift */; };
 		55EBF004249AD3B800F3B0F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBF003249AD3B800F3B0F1 /* SceneDelegate.swift */; };
 		55EBF00B249AD3BA00F3B0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EBF00A249AD3BA00F3B0F1 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		55134F56249E5294005A7E70 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		55134F59249E52F4005A7E70 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
 		55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		55134F5E249EAFA6005A7E70 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		55134F61249EAFBA005A7E70 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		55EBEFFE249AD3B800F3B0F1 /* NYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EBF001249AD3B800F3B0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EBF003249AD3B800F3B0F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 		55134F49249E4BC6005A7E70 /* DetailModule */ = {
 			isa = PBXGroup;
 			children = (
+				55134F5D249EAF99005A7E70 /* ViewController */,
+				55134F60249EAFAB005A7E70 /* View */,
 			);
 			path = DetailModule;
 			sourceTree = "<group>";
@@ -170,6 +176,22 @@
 				55134F5B249E9854005A7E70 /* ViewControllerProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		55134F5D249EAF99005A7E70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55134F5E249EAFA6005A7E70 /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55134F60249EAFAB005A7E70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55134F61249EAFBA005A7E70 /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		55EBEFF5249AD3B800F3B0F1 = {
@@ -502,8 +524,10 @@
 				55EBF03C249AE61500F3B0F1 /* NYTArticle.swift in Sources */,
 				55EBF033249AE0D300F3B0F1 /* BaseServiceProtocol.swift in Sources */,
 				55EBF037249AE2FC00F3B0F1 /* BaseService.swift in Sources */,
+				55134F5F249EAFA6005A7E70 /* DetailViewController.swift in Sources */,
 				55EBF042249AE88300F3B0F1 /* NYTAPIResponse.swift in Sources */,
 				55EBF040249AE81600F3B0F1 /* NYTMediaMetadata.swift in Sources */,
+				55134F62249EAFBA005A7E70 /* DetailView.swift in Sources */,
 				55134F5C249E9854005A7E70 /* ViewControllerProtocol.swift in Sources */,
 				55EBF030249ADF9D00F3B0F1 /* NYTAPI.swift in Sources */,
 				55EBF03E249AE76B00F3B0F1 /* NYTMedia.swift in Sources */,
