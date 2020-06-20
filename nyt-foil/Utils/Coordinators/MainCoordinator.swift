@@ -26,7 +26,7 @@ struct MainCoordinator: CoordinatorProtocol {
         let navigationController = UINavigationController(rootViewController: rootViewController)
         navigationController.navigationBar.isTranslucent = false
         navigationController.navigationBar.barTintColor = .white
-        navigationController.navigationBar.tintColor = .white
+        navigationController.navigationBar.tintColor = .black
         navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black]
         navigationController.tabBarItem.title = tabBarItemTitle
         navigationController.tabBarItem.image = tabBarItemIcon
