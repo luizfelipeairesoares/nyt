@@ -15,6 +15,7 @@ target 'nyt-foil' do
   
   #UI
   pod 'Kingfisher', '~> 5.0'
+  pod 'NVActivityIndicatorView'
 
   target 'nyt-foilTests' do
     inherit! :search_paths
