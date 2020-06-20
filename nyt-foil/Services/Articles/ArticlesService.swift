@@ -11,14 +11,23 @@ import Moya
 
 protocol ArticlesServiceProtocol: BaseService {
     
-    func requestArticles(completion: @escaping (Result<NYTAPIResponse, NYTAPIError>) -> Void)
+    func requestArticles(for viewType: ListViewType, with period: Int, completion: @escaping (Result<NYTAPIResponse, NYTAPIError>) -> Void)
     
 }
 
 struct ArticlesService: ArticlesServiceProtocol {
     
-    func requestArticles(completion: @escaping (Result<NYTAPIResponse, NYTAPIError>) -> Void) {
-        request(.viewed) { (result: Result<NYTAPIResponse, NYTAPIError>) in
+    func requestArticles(for viewType: ListViewType, with period: Int, completion: @escaping (Result<NYTAPIResponse, NYTAPIError>) -> Void) {
+        var target: NYTAPI = .viewed(period: period)
+        switch viewType {
+        case .emailed:
+            target = .emailed(period: period)
+        case .shared:
+            target = .shared(period: period)
+        case .viewed:
+            target = .viewed(period: period)
+        }
+        request(target) { (result: Result<NYTAPIResponse, NYTAPIError>) in
             switch result {
             case .success(let response):
                 completion(.success(response))
