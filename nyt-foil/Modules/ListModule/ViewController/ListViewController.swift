@@ -28,6 +28,7 @@ class ListViewController: UIViewController, ListViewProtocol {
     
     private lazy var mainView: ListView = {
         let view = ListView()
+        view.delegate = self
         view.tableView.dataSource = self
         view.tableView.delegate = self
         return view
@@ -74,14 +75,26 @@ class ListViewController: UIViewController, ListViewProtocol {
         requestArticles()
     }
     
+    // MARK: - Protocol Functions
+    
+    func reloadData() {
+        stopAnimating()
+        mainView.tableView.reloadData()
+        mainView.tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .none, animated: false)
+        mainView.tableView.isHidden = false
+    }
+    
     // MARK: - Private Functions
     
-    private func requestArticles() {
-        ArticlesService().requestArticles { [weak self] (result) in
+    private func requestArticles(for period: Int = 7) {
+        mainView.tableView.isHidden = true
+        showLoading()
+        ArticlesService().requestArticles(for: viewType, with: period) { [weak self] (result) in
             switch result {
             case .success(let response):
+                self?.articles.removeAll()
                 self?.articles.append(contentsOf: response.results)
-                self?.mainView.tableView.reloadData()
+                self?.reloadData()
             case .failure(let error):
                 self?.showError(with: error.localizedDescription, actionButtonTitle: "Retry", actionHandler: { [weak self] in
                     self?.requestArticles()
@@ -91,6 +104,18 @@ class ListViewController: UIViewController, ListViewProtocol {
     }
 
 }
+
+// MARK: - ListViewDelegate
+
+extension ListViewController: ListViewDelegate {
+    
+    func didSelectPeriod(_ period: Int) {
+        requestArticles(for: period)
+    }
+    
+}
+
+// MARK: - UITableViewDataSource
 
 extension ListViewController: UITableViewDataSource {
     
@@ -109,6 +134,8 @@ extension ListViewController: UITableViewDataSource {
     }
     
 }
+
+// MARK: - UITableViewDelegate
 
 extension ListViewController: UITableViewDelegate {
     
