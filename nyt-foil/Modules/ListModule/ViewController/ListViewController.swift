@@ -16,13 +16,15 @@ enum ListViewType {
     
 }
 
-protocol ListViewProtocol: ViewControllerProtocol {
+protocol ListViewControllerProtocol: ViewControllerProtocol {
     
-    init(with type: ListViewType)
+    var articles: [NYTArticle] { get }
+    
+    init(with type: ListViewType, service: ArticlesServiceProtocol)
     
 }
 
-class ListViewController: UIViewController, ListViewProtocol {
+class ListViewController: UIViewController, ListViewControllerProtocol {
     
     // MARK: - Private Properties
     
@@ -35,13 +37,15 @@ class ListViewController: UIViewController, ListViewProtocol {
     }()
     
     private let viewType: ListViewType
+    private let service: ArticlesServiceProtocol
     
-    private var articles: [NYTArticle] = []
+    var articles: [NYTArticle] = []
     
     // MARK: - Init
     
-    required init(with type: ListViewType) {
+    required init(with type: ListViewType, service: ArticlesServiceProtocol = ArticlesService()) {
         viewType = type
+        self.service = service
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -79,9 +83,11 @@ class ListViewController: UIViewController, ListViewProtocol {
     
     func reloadData() {
         stopAnimating()
-        mainView.tableView.reloadData()
-        mainView.tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .none, animated: false)
-        mainView.tableView.isHidden = false
+        if !articles.isEmpty {
+            mainView.tableView.reloadData()
+            mainView.tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .none, animated: false)
+            mainView.tableView.isHidden = false
+        }
     }
     
     // MARK: - Private Functions
@@ -89,7 +95,7 @@ class ListViewController: UIViewController, ListViewProtocol {
     private func requestArticles(for period: Int = 7) {
         mainView.tableView.isHidden = true
         showLoading()
-        ArticlesService().requestArticles(for: viewType, with: period) { [weak self] (result) in
+        service.requestArticles(for: viewType, with: period) { [weak self] (result) in
             switch result {
             case .success(let response):
                 self?.articles.removeAll()
