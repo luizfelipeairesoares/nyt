@@ -137,16 +137,8 @@
 				55134F68249EB72E005A7E70 /* Mocks */,
 				55134F58249E52E4005A7E70 /* Protocols */,
 				55134F4C249E4BE7005A7E70 /* Coordinators */,
-				55134F4B249E4BE2005A7E70 /* Extensions */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		55134F4B249E4BE2005A7E70 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		55134F4C249E4BE7005A7E70 /* Coordinators */ = {
@@ -308,7 +300,6 @@
 				55EBF001249AD3B800F3B0F1 /* AppDelegate.swift */,
 				55EBF003249AD3B800F3B0F1 /* SceneDelegate.swift */,
 				55EBF023249AD5DA00F3B0F1 /* Modules */,
-				55EBF024249AD5E200F3B0F1 /* Views */,
 				55EBF025249AD5E600F3B0F1 /* Services */,
 				55EBF026249AD5EA00F3B0F1 /* Models */,
 				55EBF027249AD5EE00F3B0F1 /* Resources */,
@@ -336,13 +327,6 @@
 				55134F46249E44B3005A7E70 /* ListModule */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		55EBF024249AD5E200F3B0F1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		55EBF025249AD5E600F3B0F1 /* Services */ = {
