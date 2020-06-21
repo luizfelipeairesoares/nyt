@@ -17,6 +17,12 @@ protocol ArticlesServiceProtocol: BaseService {
 
 struct ArticlesService: ArticlesServiceProtocol {
     
+    var provider: MoyaProvider<NYTAPI>
+    
+    init(with provider: MoyaProvider<NYTAPI> = MoyaProvider<NYTAPI>(plugins: [NetworkLoggerPlugin(verbose: true)])) {
+        self.provider = provider
+    }
+    
     func requestArticles(for viewType: ListViewType, with period: Int, completion: @escaping (Result<NYTAPIResponse, NYTAPIError>) -> Void) {
         var target: NYTAPI = .viewed(period: period)
         switch viewType {
