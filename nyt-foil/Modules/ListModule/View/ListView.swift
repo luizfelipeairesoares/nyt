@@ -106,7 +106,7 @@ class ListView: UIView {
         ])
     }
     
-    @IBAction private func periodChanged(_ sender: UISegmentedControl) {
+    @IBAction func periodChanged(_ sender: UISegmentedControl) {
         var period = 1
         switch sender.selectedSegmentIndex {
         case 0:
