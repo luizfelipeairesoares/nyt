@@ -11,6 +11,10 @@ import Moya
 
 protocol BaseServiceProtocol {
     
-    func request<T: Decodable>(provider: MoyaProvider<NYTAPI>, _ target: NYTAPI, completion: @escaping (Result<T, NYTAPIError>) -> Void)
+    var provider: MoyaProvider<NYTAPI> { get }
+    
+    init(with provider: MoyaProvider<NYTAPI>)
+    
+    func request<T: Decodable>(_ target: NYTAPI, completion: @escaping (Result<T, NYTAPIError>) -> Void)
     
 }
