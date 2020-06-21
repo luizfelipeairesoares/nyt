@@ -1,0 +1,1152 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2020 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/5b7029ac-a003-5aab-bbb9-73f5383e6a1a",
+            "url": "https://www.nytimes.com/2020/06/12/us/politics/trump-transgender-rights.html",
+            "id": 100000007189084,
+            "asset_id": 100000007189084,
+            "source": "New York Times",
+            "published_date": "2020-06-12",
+            "updated": "2020-06-15 10:32:58",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Discrimination;Health Insurance and Managed Care;United States Politics and Government;Patient Protection and Affordable Care Act (2010);Transgender and Transsexuals;Trump, Donald J;Human Rights Campaign;Health and Human Services Department",
+            "column": null,
+            "byline": "By Margot Sanger-Katz and Noah Weiland",
+            "type": "Article",
+            "title": "Trump Administration Erases Transgender Civil Rights Protections in Health Care",
+            "abstract": "A rule finalized on Friday by the Department of Health and Human Services means that the federal government no longer recognizes gender identity as an avenue for sex discrimination in health care.",
+            "des_facet": [
+                "Discrimination",
+                "Health Insurance and Managed Care",
+                "United States Politics and Government",
+                "Patient Protection and Affordable Care Act (2010)",
+                "Transgender and Transsexuals"
+            ],
+            "org_facet": [
+                "Human Rights Campaign",
+                "Health and Human Services Department"
+            ],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "An empty hallway filled with gurneys at a hospital in Queens. The new rule will erase protections for transgender patients against discrimination in the health care sector.",
+                    "copyright": "Erin Schaff/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/us/politics/12dc-transgender/12dc-transgender-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/us/politics/12dc-transgender/merlin_172386582_8c5204bd-f5dc-49b0-9efe-3ec4eae5969c-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/us/politics/12dc-transgender/merlin_172386582_8c5204bd-f5dc-49b0-9efe-3ec4eae5969c-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/01ae5e1a-2ead-5d34-90f6-613730a3c5b0",
+            "url": "https://www.nytimes.com/2020/06/14/us/politics/trump-ramp-water-glass-health.html",
+            "id": 100000007190460,
+            "asset_id": 100000007190460,
+            "source": "New York Times",
+            "published_date": "2020-06-14",
+            "updated": "2020-06-15 10:32:30",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "United States Politics and Government;Commencement Speeches;Trump, Donald J;United States Military Academy",
+            "column": null,
+            "byline": "By Maggie Haberman",
+            "type": "Article",
+            "title": "Trump’s Halting Walk Down Ramp Raises New Health Questions",
+            "abstract": "The president also appeared to have trouble raising a glass of water to his mouth during a speech at West Point a day before he turned 74, the oldest a president has been in his first term.",
+            "des_facet": [
+                "United States Politics and Government",
+                "Commencement Speeches"
+            ],
+            "org_facet": [
+                "United States Military Academy"
+            ],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/ccf4a9d3-568f-5b05-84c5-ae685acd47b7",
+            "url": "https://www.nytimes.com/2020/06/15/us/gay-transgender-workers-supreme-court.html",
+            "id": 100000007069961,
+            "asset_id": 100000007069961,
+            "source": "New York Times",
+            "published_date": "2020-06-15",
+            "updated": "2020-06-16 23:26:21",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Discrimination;Homosexuality and Bisexuality;Workplace Hazards and Violations;Transgender and Transsexuals;Civil Rights and Liberties;Decisions and Verdicts;Law and Legislation;Gorsuch, Neil M;Alito, Samuel A Jr;Stephens, Aimee;Bostock, Gerald;Zarda, Donald (1970-2014);Supreme Court (US);Equal Employment Opportunity Commission;RG & GR Harris Funeral Homes Inc",
+            "column": null,
+            "byline": "By Adam Liptak",
+            "type": "Article",
+            "title": "Civil Rights Law Protects Gay and Transgender Workers, Supreme Court Rules",
+            "abstract": "The court said the language of the Civil Rights Act of 1964, which prohibits sex discrimination, applies to discrimination based on sexual orientation and gender identity.",
+            "des_facet": [
+                "Discrimination",
+                "Homosexuality and Bisexuality",
+                "Workplace Hazards and Violations",
+                "Transgender and Transsexuals",
+                "Civil Rights and Liberties",
+                "Decisions and Verdicts",
+                "Law and Legislation"
+            ],
+            "org_facet": [
+                "Supreme Court (US)",
+                "Equal Employment Opportunity Commission",
+                "RG & GR Harris Funeral Homes Inc"
+            ],
+            "per_facet": [
+                "Gorsuch, Neil M",
+                "Alito, Samuel A Jr",
+                "Stephens, Aimee",
+                "Bostock, Gerald",
+                "Zarda, Donald (1970-2014)"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Tiffany Munroe on Sunday in Brooklyn during a rally to call attention to violence against transgender people of color.",
+                    "copyright": "Demetrius Freeman for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/politics/15dc-scotus-lgbt/15dc-scotus-lgbt-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/politics/15dc-scotus-lgbt/merlin_173534901_83f3865e-6ba4-4f1b-8d6c-a7f54db8cce8-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/politics/15dc-scotus-lgbt/merlin_173534901_83f3865e-6ba4-4f1b-8d6c-a7f54db8cce8-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/1f73fa75-4a64-59d2-883e-94559829aec6",
+            "url": "https://www.nytimes.com/2020/06/14/us/videos-rayshard-brooks-shooting-atlanta-police.html",
+            "id": 100000007190125,
+            "asset_id": 100000007190125,
+            "source": "New York Times",
+            "published_date": "2020-06-14",
+            "updated": "2020-06-17 17:38:53",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Police Brutality, Misconduct and Shootings;George Floyd Protests (2020);Video Recordings, Downloads and Streaming;Black People;Brooks, Rayshard (d 2020);Brosnan, Devin (Atlanta, Ga, Police Officer);Rolfe, Garrett (Atlanta, Ga, Police Officer);Atlanta (Ga)",
+            "column": null,
+            "byline": "By Malachy Browne, Christina Kelso and Barbara Marcolini",
+            "type": "Article",
+            "title": "How Rayshard Brooks Was Fatally Shot by the Atlanta Police",
+            "abstract": "One officer has been fired and another placed on administrative duty. A Times video analysis shows the sequence of events leading to the fatal shooting.",
+            "des_facet": [
+                "Police Brutality, Misconduct and Shootings",
+                "George Floyd Protests (2020)",
+                "Video Recordings, Downloads and Streaming",
+                "Black People"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Brooks, Rayshard (d 2020)",
+                "Brosnan, Devin (Atlanta, Ga, Police Officer)",
+                "Rolfe, Garrett (Atlanta, Ga, Police Officer)"
+            ],
+            "geo_facet": [
+                "Atlanta (Ga)"
+            ],
+            "media": [],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/ccbca2f2-7cb5-5812-91fe-e03588b518c5",
+            "url": "https://www.nytimes.com/2020/06/18/us/trump-daca-supreme-court.html",
+            "id": 100000007071994,
+            "asset_id": 100000007071994,
+            "source": "New York Times",
+            "published_date": "2020-06-18",
+            "updated": "2020-06-19 11:33:08",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Immigration and Emigration;Illegal Immigration;Deferred Action for Childhood Arrivals;Courts and the Judiciary;Decisions and Verdicts;Trump, Donald J;Supreme Court (US);Homeland Security Department;Immigration and Customs Enforcement (US)",
+            "column": null,
+            "byline": "By Adam Liptak and Michael D. Shear",
+            "type": "Article",
+            "title": "Trump Can’t Immediately End DACA, Supreme Court Rules",
+            "abstract": "The program, Deferred Action for Childhood Arrivals, protects people brought to the United States as children by shielding them from deportation and letting them work.",
+            "des_facet": [
+                "Immigration and Emigration",
+                "Illegal Immigration",
+                "Deferred Action for Childhood Arrivals",
+                "Courts and the Judiciary",
+                "Decisions and Verdicts"
+            ],
+            "org_facet": [
+                "Supreme Court (US)",
+                "Homeland Security Department",
+                "Immigration and Customs Enforcement (US)"
+            ],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/1ce66612-0984-5acf-b1fd-8b24b3121650",
+            "url": "https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html",
+            "id": 100000007178486,
+            "asset_id": 100000007178486,
+            "source": "New York Times",
+            "published_date": "2020-06-12",
+            "updated": "2020-06-14 20:23:53",
+            "section": "Opinion",
+            "subsection": "Sunday Review",
+            "nytdsection": "opinion",
+            "adx_keywords": "George Floyd Protests (2020);Black Lives Matter Movement;Police Brutality, Misconduct and Shootings;Police Reform;United States",
+            "column": null,
+            "byline": "By Mariame Kaba",
+            "type": "Article",
+            "title": "Yes, We Mean Literally Abolish the Police",
+            "abstract": "Because reform won’t happen.",
+            "des_facet": [
+                "George Floyd Protests (2020)",
+                "Black Lives Matter Movement",
+                "Police Brutality, Misconduct and Shootings",
+                "Police Reform"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": " ",
+                    "copyright": "Illustration by Nicholas Konrad; photograph by Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/opinion/14kaba_sub2/14kaba_sub2-thumbStandard-v8.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/opinion/14kaba_sub2/14kaba_sub2-mediumThreeByTwo210-v8.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/opinion/14kaba_sub2/14kaba_sub2-mediumThreeByTwo440-v8.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/1760d5a9-65a2-55a0-a0c5-0f7da675c505",
+            "url": "https://www.nytimes.com/2020/06/15/books/mary-trump-book.html",
+            "id": 100000007191330,
+            "asset_id": 100000007191330,
+            "source": "New York Times",
+            "published_date": "2020-06-15",
+            "updated": "2020-06-16 12:47:34",
+            "section": "Books",
+            "subsection": "",
+            "nytdsection": "books",
+            "adx_keywords": "United States Politics and Government;Books and Literature;Tax Evasion;Trump, Donald J;Trump, Mary L;New York Times",
+            "column": null,
+            "byline": "By Neil Vigdor and Alexandra Alter",
+            "type": "Article",
+            "title": "Trump’s Niece to Publish Book With ‘Harrowing’ Revelations",
+            "abstract": "Mary Trump will say that she was a source of The New York Times’s coverage of the president’s tax returns. The Times declined to comment on the claim.",
+            "des_facet": [
+                "United States Politics and Government",
+                "Books and Literature",
+                "Tax Evasion"
+            ],
+            "org_facet": [
+                "New York Times"
+            ],
+            "per_facet": [
+                "Trump, Donald J",
+                "Trump, Mary L"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking off Air Force One at Joint Base Andrews, Md., on Sunday.",
+                    "copyright": "Anna Moneymaker/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/us/politics/14xp-marytrump1/14xp-marytrump1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/us/politics/14xp-marytrump1/14xp-marytrump1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/us/politics/14xp-marytrump1/14xp-marytrump1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/bfb410ef-1edf-5f83-bc03-e967a82728c9",
+            "url": "https://www.nytimes.com/2020/06/17/us/politics/bolton-book-trump-impeached.html",
+            "id": 100000007196179,
+            "asset_id": 100000007196179,
+            "source": "New York Times",
+            "published_date": "2020-06-17",
+            "updated": "2020-06-20 11:11:35",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Books and Literature;United States Politics and Government;United States International Relations;Impeachment;Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;Ethics and Official Misconduct;Bolton, John R;Trump, Donald J",
+            "column": null,
+            "byline": "By Peter Baker",
+            "type": "Article",
+            "title": "Bolton Says Trump Impeachment Inquiry Missed Other Troubling Episodes",
+            "abstract": "In his new book, John R. Bolton, the former national security adviser, describes instances when the president sought to halt criminal inquiries. He also says President Trump’s loyalists mocked him behind his back.",
+            "des_facet": [
+                "Books and Literature",
+                "United States Politics and Government",
+                "United States International Relations",
+                "Impeachment",
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "Ethics and Official Misconduct"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Bolton, John R",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "John R. Bolton was President Trump’s national security adviser for 17 months. Mr. Trump asked if Finland was part of Russia, Mr. Bolton wrote in his new book.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17dc-bolton/17dc-bolton-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17dc-bolton/17dc-bolton-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17dc-bolton/17dc-bolton-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/0582a540-250c-5cfa-abd7-655454d01717",
+            "url": "https://www.nytimes.com/2020/06/12/arts/music/bob-dylan-rough-and-rowdy-ways.html",
+            "id": 100000007177221,
+            "asset_id": 100000007177221,
+            "source": "New York Times",
+            "published_date": "2020-06-12",
+            "updated": "2020-06-18 15:48:48",
+            "section": "Arts",
+            "subsection": "Music",
+            "nytdsection": "arts",
+            "adx_keywords": "Folk Music;Pop and Rock Music;Dylan, Bob",
+            "column": null,
+            "byline": "By Douglas Brinkley",
+            "type": "Article",
+            "title": "Bob Dylan Has a Lot on His Mind",
+            "abstract": "In a rare interview, the Nobel Prize winner discusses mortality, drawing inspiration from the past, and his new album, “Rough and Rowdy Ways.”",
+            "des_facet": [
+                "Folk Music",
+                "Pop and Rock Music"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Dylan, Bob"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Bob Dylan&rsquo;s &ldquo;Rough and Rowdy Ways&rdquo; is his first album of original songs since 2012.",
+                    "copyright": "Kevin Winter/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/arts/14dylan1/merlin_146478750_0a7f707b-ed5c-4046-a922-d33d68db402d-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/arts/14dylan1/merlin_146478750_0a7f707b-ed5c-4046-a922-d33d68db402d-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/arts/14dylan1/merlin_146478750_0a7f707b-ed5c-4046-a922-d33d68db402d-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/b6141992-37e1-520a-8c79-c362b552337b",
+            "url": "https://www.nytimes.com/2020/06/13/us/atlanta-police-shooting-rayshard-brooks.html",
+            "id": 100000007189926,
+            "asset_id": 100000007189926,
+            "source": "New York Times",
+            "published_date": "2020-06-13",
+            "updated": "2020-06-17 06:23:18",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Police Brutality, Misconduct and Shootings;Black People;Demonstrations, Protests and Riots;George Floyd Protests (2020);Brooks, Rayshard (d 2020);Rolfe, Garrett (Atlanta, Ga, Police Officer);Brosnan, Devin (Atlanta, Ga, Police Officer);Shields, Erika (Atlanta, Ga, Police Chief);Atlanta (Ga)",
+            "column": null,
+            "byline": "By Richard Fausset, Johnny Diaz and Nicholas Bogel-Burroughs",
+            "type": "Article",
+            "title": "Atlanta Police Chief Resigns After Officer Shoots and Kills a Black Man",
+            "abstract": "Rayshard Brooks had fallen asleep in his vehicle at a Wendy’s drive-through. He was shot after grabbing a Taser from an officer, the authorities said, prompting fresh unrest in the city.",
+            "des_facet": [
+                "Police Brutality, Misconduct and Shootings",
+                "Black People",
+                "Demonstrations, Protests and Riots",
+                "George Floyd Protests (2020)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Brooks, Rayshard (d 2020)",
+                "Rolfe, Garrett (Atlanta, Ga, Police Officer)",
+                "Brosnan, Devin (Atlanta, Ga, Police Officer)",
+                "Shields, Erika (Atlanta, Ga, Police Chief)"
+            ],
+            "geo_facet": [
+                "Atlanta (Ga)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Protesters confronted police officers outside the Wendy’s restaurant in Atlanta where Rayshard Brooks was shot and killed in the parking lot.",
+                    "copyright": "Joshua Rashaad McFadden for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/us/politics/13protest-atlanta-sub-2/13protest-atlanta-sub-2-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/us/politics/13protest-atlanta-sub-2/13protest-atlanta-sub-2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/us/politics/13protest-atlanta-sub-2/13protest-atlanta-sub-2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/bd3eea14-ff76-5324-ba5e-5219886de1fa",
+            "url": "https://www.nytimes.com/2020/06/12/business/media/tucker-carlson-fox-news-advertisers.html",
+            "id": 100000007187203,
+            "asset_id": 100000007187203,
+            "source": "New York Times",
+            "published_date": "2020-06-12",
+            "updated": "2020-06-14 11:24:16",
+            "section": "Business",
+            "subsection": "Media",
+            "nytdsection": "business",
+            "adx_keywords": "Advertising and Marketing;News and News Media;Television;George Floyd Protests (2020);Black Lives Matter Movement;Carlson, Tucker;Fox News Channel;Papa Johns International Inc;T-Mobile US Inc;Walt Disney Company",
+            "column": null,
+            "byline": "By Tiffany Hsu",
+            "type": "Article",
+            "title": "Fox News Host Tucker Carlson Loses More Advertisers",
+            "abstract": "Disney, Papa John’s, Poshmark and T-Mobile backed away from “Tucker Carlson Tonight” after the host’s comments about Black Lives Matter protests.",
+            "des_facet": [
+                "Advertising and Marketing",
+                "News and News Media",
+                "Television",
+                "George Floyd Protests (2020)",
+                "Black Lives Matter Movement"
+            ],
+            "org_facet": [
+                "Fox News Channel",
+                "Papa Johns International Inc",
+                "T-Mobile US Inc",
+                "Walt Disney Company"
+            ],
+            "per_facet": [
+                "Carlson, Tucker"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Advertiser disavowals of Tucker Carlson&rsquo;s show, &ldquo;Tucker Carlson Tonight,&rdquo; have gained momentum.",
+                    "copyright": "Richard Drew/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/business/12unrest-carlson-print/12unrest-carlson-1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/business/12unrest-carlson-print/12unrest-carlson-1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/13/business/12unrest-carlson-print/12unrest-carlson-1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/b1bacce6-ce08-5208-be6a-5675d6008b10",
+            "url": "https://www.nytimes.com/2020/06/15/world/coronavirus-usa-world.html",
+            "id": 100000007191178,
+            "asset_id": 100000007191178,
+            "source": "New York Times",
+            "published_date": "2020-06-15",
+            "updated": "2020-06-16 08:04:27",
+            "section": "World",
+            "subsection": "",
+            "nytdsection": "world",
+            "adx_keywords": "Coronavirus (2019-nCoV)",
+            "column": null,
+            "byline": "",
+            "type": "Article",
+            "title": "Pence Tells Governors to Repeat Misleading Claim on Outbreaks",
+            "abstract": "Cash-starved states are forced to make massive job cuts. Reopenings for some restaurants and bars are short-lived amid new infections.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Vice President Mike Pence at the White House on Monday.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/15virus-briefing-pence/15virus-briefing-pence-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/15virus-briefing-pence/merlin_173565630_e164446f-4d7e-4897-9aa4-741b5c66b60b-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/15/us/15virus-briefing-pence/merlin_173565630_e164446f-4d7e-4897-9aa4-741b5c66b60b-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/d674dde3-991c-5d60-b678-5e1a88c1c198",
+            "url": "https://www.nytimes.com/2020/06/14/nyregion/central-park-amy-cooper-christian-racism.html",
+            "id": 100000007163605,
+            "asset_id": 100000007163605,
+            "source": "New York Times",
+            "published_date": "2020-06-14",
+            "updated": "2020-06-17 05:05:23",
+            "section": "New York",
+            "subsection": "",
+            "nytdsection": "new york",
+            "adx_keywords": "Black Lives Matter Movement;George Floyd Protests (2020);Race and Ethnicity;Discrimination;Black People;Cooper, Christian (Birder);Cooper, Amy (May 25, 2020 Central Park Incident);Central Park (Manhattan, NY)",
+            "column": null,
+            "byline": "By Sarah Maslin Nir",
+            "type": "Article",
+            "title": "How 2 Lives Collided in Central Park, Rattling the Nation",
+            "abstract": "The inside story of the black birder and the white woman who called the police on him. Their encounter stirred wrenching conversations about racism and white privilege.",
+            "des_facet": [
+                "Black Lives Matter Movement",
+                "George Floyd Protests (2020)",
+                "Race and Ethnicity",
+                "Discrimination",
+                "Black People"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Cooper, Christian (Birder)",
+                "Cooper, Amy (May 25, 2020 Central Park Incident)"
+            ],
+            "geo_facet": [
+                "Central Park (Manhattan, NY)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brittainy Newman/The New York Times; Alison Faircloth",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/nyregion/00CENTRALPARK-TWOLIVES-top/00CENTRALPARK-TWOLIVES-top-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/nyregion/00CENTRALPARK-TWOLIVES-top/00CENTRALPARK-TWOLIVES-top-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/nyregion/00CENTRALPARK-TWOLIVES-top/00CENTRALPARK-TWOLIVES-top-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/267b10f9-df9e-543e-beb1-bc6787d4e21d",
+            "url": "https://www.nytimes.com/2020/06/17/us/politics/trump-2020-election.html",
+            "id": 100000007191239,
+            "asset_id": 100000007191239,
+            "source": "New York Times",
+            "published_date": "2020-06-17",
+            "updated": "2020-06-20 10:33:03",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Presidential Election of 2020;United States Politics and Government;George Floyd Protests (2020);Police Brutality, Misconduct and Shootings;Trump, Donald J;Republican Party",
+            "column": null,
+            "byline": "By Maggie Haberman and Annie Karni",
+            "type": "Article",
+            "title": "Does Trump Want to Fight for a Second Term? His Self-Sabotage Worries Aides",
+            "abstract": "Advisers and allies say the president’s repeated acts of self-destruction have significantly damaged his re-election prospects, and yet he appears mostly unable, or unwilling, to curtail them.",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "United States Politics and Government",
+                "George Floyd Protests (2020)",
+                "Police Brutality, Misconduct and Shootings"
+            ],
+            "org_facet": [
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump has told advisers that no matter what he does, he cannot get “good” stories from the news media, people familiar with the conversations say.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17trump-mood-sub/17trump-mood-sub-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17trump-mood-sub/17trump-mood-sub-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/us/politics/17trump-mood-sub/17trump-mood-sub-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/2ec11b93-6f51-5107-9a9c-526d2cb72ea4",
+            "url": "https://www.nytimes.com/2020/06/16/world/coronavirus-live-updates.html",
+            "id": 100000007193032,
+            "asset_id": 100000007193032,
+            "source": "New York Times",
+            "published_date": "2020-06-16",
+            "updated": "2020-06-17 05:28:33",
+            "section": "World",
+            "subsection": "",
+            "nytdsection": "world",
+            "adx_keywords": "Coronavirus (2019-nCoV)",
+            "column": null,
+            "byline": "",
+            "type": "Article",
+            "title": "Honduran President Tests Positive",
+            "abstract": "Scientists at the University of Oxford say they have identified a drug that can reduce coronavirus-related deaths. The virus flares in Beijing. Officials in Tulsa, Okla., worry that President Trump’s planned rally could cause a spike.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Juan Orlando Hernández of Honduras, center, addressing the the nation on the pandemic from the presidential palace in Tegucigalpa last month.",
+                    "copyright": "Honduran Presidency, via Agence France-Presse — Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/world/17virus-briefing-honduras/17virus-briefing-honduras-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/world/17virus-briefing-honduras/17virus-briefing-honduras-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/17/world/17virus-briefing-honduras/17virus-briefing-honduras-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/5f9f1bc7-549a-5ab4-bdac-6e00a87e3d74",
+            "url": "https://www.nytimes.com/2020/06/18/us/politics/facebook-trump-ads-antifa-red-triangle.html",
+            "id": 100000007198405,
+            "asset_id": 100000007198405,
+            "source": "New York Times",
+            "published_date": "2020-06-18",
+            "updated": "2020-06-19 13:05:35",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Antifa Movement (US);Holocaust and the Nazi Era;Presidential Election of 2020;Political Advertising;Social Media;Symbols;Trump, Donald J;Facebook Inc",
+            "column": null,
+            "byline": "By Annie Karni",
+            "type": "Article",
+            "title": "Facebook Removes Trump Ads Displaying Symbol Used by Nazis",
+            "abstract": "Nazis used a red triangle to classify political prisoners during World War II. The Trump campaign said the red triangle in its Facebook ads was associated with antifa, a claim experts rejected.",
+            "des_facet": [
+                "Antifa Movement (US)",
+                "Holocaust and the Nazi Era",
+                "Presidential Election of 2020",
+                "Political Advertising",
+                "Social Media",
+                "Symbols"
+            ],
+            "org_facet": [
+                "Facebook Inc"
+            ],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Facebook said it removed the Trump campaign’s ads for “violating our policy against organized hate.”",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/18/us/politics/18TRUMP-REDTRIANGLE/merlin_173635575_c8465a68-3717-4d79-96b0-34f5356891c1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/18/us/politics/18TRUMP-REDTRIANGLE/merlin_173635575_c8465a68-3717-4d79-96b0-34f5356891c1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/18/us/politics/18TRUMP-REDTRIANGLE/merlin_173635575_c8465a68-3717-4d79-96b0-34f5356891c1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/f6dd6989-2f19-58ee-b295-a71a902b5cd4",
+            "url": "https://www.nytimes.com/2020/06/10/arts/television/protests-fictional-cops.html",
+            "id": 100000007180708,
+            "asset_id": 100000007180708,
+            "source": "New York Times",
+            "published_date": "2020-06-10",
+            "updated": "2020-06-11 19:35:49",
+            "section": "Arts",
+            "subsection": "Television",
+            "nytdsection": "arts",
+            "adx_keywords": "George Floyd Protests (2020);Police Brutality, Misconduct and Shootings;Television",
+            "column": null,
+            "byline": "By Amanda Hess",
+            "type": "Article",
+            "title": "The Protests Come for ‘Paw Patrol’",
+            "abstract": "A backlash is mounting against depictions of “good cops,” on television and in the street.",
+            "des_facet": [
+                "George Floyd Protests (2020)",
+                "Police Brutality, Misconduct and Shootings",
+                "Television"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Chase is on the case in &ldquo;Paw Patrol,&rdquo; but as protests against racist police violence reach their third week, criticism of fictional cops is growing, too.",
+                    "copyright": "Elevation Pictures",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/11/arts/10cops-fictional1/10cops-fictional1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/11/arts/10cops-fictional1/10cops-fictional1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/11/arts/10cops-fictional1/10cops-fictional1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/33d9ce4e-4399-5896-b986-4d6c23162def",
+            "url": "https://www.nytimes.com/article/juneteenth-day-celebration.html",
+            "id": 100000007185972,
+            "asset_id": 100000007185972,
+            "source": "New York Times",
+            "published_date": "2020-06-13",
+            "updated": "2020-06-19 13:39:02",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Black People;George Floyd Protests (2020);Black Lives Matter Movement;Slavery (Historical);Emancipation Proclamation (1863);United States Politics and Government;Juneteenth;Trump, Donald J;Galveston (Tex);Tulsa (Okla)",
+            "column": null,
+            "byline": "By Derrick Bryson Taylor",
+            "type": "Article",
+            "title": "So You Want to Learn About Juneteenth?",
+            "abstract": "On June 19, 1865, enslaved African-Americans in Galveston, Texas, were told they were free. Now, 155 years later, people in cities and towns across the U.S. continue to mark the occasion with celebrations.",
+            "des_facet": [
+                "Black People",
+                "George Floyd Protests (2020)",
+                "Black Lives Matter Movement",
+                "Slavery (Historical)",
+                "Emancipation Proclamation (1863)",
+                "United States Politics and Government",
+                "Juneteenth"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [
+                "Galveston (Tex)",
+                "Tulsa (Okla)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A Juneteenth parade in Flint, Mich., in 2018.",
+                    "copyright": "Jake May/The Flint Journal, via Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/briefing/14xp-juneteenth-explainer-print1/19ambriefing-asia-slide-slide-I6QG-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/briefing/14xp-juneteenth-explainer-print1/19ambriefing-asia-slide-slide-I6QG-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/14/briefing/14xp-juneteenth-explainer-print1/19ambriefing-asia-slide-slide-I6QG-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/ff3a7f8c-2e43-502c-871c-b5d91b67fa86",
+            "url": "https://www.nytimes.com/2020/06/16/health/coronavirus-toilets-flushing.html",
+            "id": 100000007193321,
+            "asset_id": 100000007193321,
+            "source": "New York Times",
+            "published_date": "2020-06-16",
+            "updated": "2020-06-19 13:33:38",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Coronavirus (2019-nCoV);Bathrooms and Toilets;Coronavirus Risks and Safety Concerns;Research;Hygiene and Cleanliness;Feces;your-feed-science;your-feed-health;Wang, Ji-Xiang;Physics of Fluids (Journal)",
+            "column": null,
+            "byline": "By Knvul Sheikh",
+            "type": "Article",
+            "title": "Flushing the Toilet May Fling Coronavirus Aerosols All Over",
+            "abstract": "A new study shows how turbulence from a toilet bowl can create a large plume that is potentially infectious to a bathroom’s next visitor.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Bathrooms and Toilets",
+                "Coronavirus Risks and Safety Concerns",
+                "Research",
+                "Hygiene and Cleanliness",
+                "Feces",
+                "your-feed-science",
+                "your-feed-health"
+            ],
+            "org_facet": [
+                "Physics of Fluids (Journal)"
+            ],
+            "per_facet": [
+                "Wang, Ji-Xiang"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "John Greim/LightRocket, via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/science/16VIRUS-FLUSH/16VIRUS-FLUSH-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/science/16VIRUS-FLUSH/16VIRUS-FLUSH-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/16/science/16VIRUS-FLUSH/16VIRUS-FLUSH-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/f5f71dbc-d9c2-5748-a303-fac84b93ec5a",
+            "url": "https://www.nytimes.com/2020/06/12/upshot/epidemiologists-decisions-children-school-coronavirus.html",
+            "id": 100000007184393,
+            "asset_id": 100000007184393,
+            "source": "New York Times",
+            "published_date": "2020-06-12",
+            "updated": "2020-06-14 12:48:07",
+            "section": "The Upshot",
+            "subsection": "",
+            "nytdsection": "the upshot",
+            "adx_keywords": "Coronavirus Reopenings;Coronavirus (2019-nCoV);Quarantines;Teachers and School Employees;Education;Day Care Centers;Children and Childhood;Coronavirus Risks and Safety Concerns",
+            "column": null,
+            "byline": "By Claire Cain Miller and Margot Sanger-Katz",
+            "type": "Article",
+            "title": "How 132 Epidemiologists Are Deciding When to Send Their Children to School",
+            "abstract": "“This is the dreaded question,” say experts struggling to weigh virus risks and uncertainty against family well-being.",
+            "des_facet": [
+                "Coronavirus Reopenings",
+                "Coronavirus (2019-nCoV)",
+                "Quarantines",
+                "Teachers and School Employees",
+                "Education",
+                "Day Care Centers",
+                "Children and Childhood",
+                "Coronavirus Risks and Safety Concerns"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "At a pre-K graduation ceremony in Jersey City, N.J., this week. Some schools are allowed to open if they take precautions like dividing students into small groups and requiring masks.",
+                    "copyright": "Seth Wenig/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/upshot/12up-school/12up-school-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/upshot/12up-school/merlin_173411355_b577aa50-cacf-4b76-9d68-c7dfb87f921b-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2020/06/12/upshot/12up-school/merlin_173411355_b577aa50-cacf-4b76-9d68-c7dfb87f921b-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+    ]
+}
