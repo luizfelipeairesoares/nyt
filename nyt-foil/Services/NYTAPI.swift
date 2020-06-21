@@ -20,7 +20,7 @@ enum NYTAPI {
 extension NYTAPI: TargetType {
     
     var baseURL: URL {
-        return URL(string: "https://api.nytimes.com/")!
+        return URL(string: Environment.current.apiBaseURL)!
     }
     
     var path: String {
@@ -43,7 +43,7 @@ extension NYTAPI: TargetType {
     }
     
     var task: Task {
-        return .requestParameters(parameters: ["api-key" : "b3Iu2hNzuB9SuYej96r9fNZ3hwXxKuSj"], encoding: URLEncoding.default)
+        return .requestParameters(parameters: ["api-key" : Environment.current.apiKey], encoding: URLEncoding.default)
     }
     
     var headers: [String : String]? {
