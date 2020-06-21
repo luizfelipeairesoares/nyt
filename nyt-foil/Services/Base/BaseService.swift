@@ -15,7 +15,7 @@ protocol BaseService: BaseServiceProtocol {
 
 extension BaseService {
     
-    func request<T: Decodable>(provider: MoyaProvider<NYTAPI> = MoyaProvider<NYTAPI>(plugins: [NetworkLoggerPlugin(verbose: true)]), _ target: NYTAPI, completion: @escaping (Result<T, NYTAPIError>) -> Void) {
+    func request<T: Decodable>(_ target: NYTAPI, completion: @escaping (Result<T, NYTAPIError>) -> Void) {
         provider.request(target) { (result) in
             switch result {
             case .success(let response):
