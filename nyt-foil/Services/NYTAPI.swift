@@ -39,7 +39,7 @@ extension NYTAPI: TargetType {
     }
     
     var sampleData: Data {
-        return Data()
+        return MockResponse().data(json: "articles")
     }
     
     var task: Task {
