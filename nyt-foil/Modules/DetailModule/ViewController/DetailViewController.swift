@@ -55,6 +55,7 @@ class DetailViewController: UIViewController, DetailViewControllerProtocol {
         super.viewWillAppear(animated)
         
         guard let url = URL(string: article.url) else {
+            showError(with: "This article URL is invalid.", actionButtonTitle: nil, actionHandler: nil)
             return
         }
         
