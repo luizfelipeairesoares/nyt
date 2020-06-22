@@ -14,6 +14,7 @@ Since it's a small project, I decided to use the MVC approach, but not the way w
  - The `ViewController` classes manages the data that is shown in the view and communicates with the `Services` classes. `ViewControllers` also conforms to `Protocols` created for them. The idea is to inject the dependencies that the class will need. Also it helps when developing the unit tests.
  - I used the ViewCode approach, so there aren't storyboard files. Except for the `LaunchScreen.storyboard`.
  - There's also a simple `Coordinator` that creates the `TabBarController` component.
+ - I created an `Environment` class that gets the API Server and API Key from the project's file, that are under `Build Settings > User-Defined`. This approach is helpful when there's Staging and Production environments and we can easily change the environment just changing the scheme.
  - `Code coverage` is at **86%** the last time I tested.
 
 ## Running the project
@@ -34,3 +35,5 @@ Then, open `nyt-foil.xcworkspace` file.
 I could not find any API to show the article detail. That's why the `DetailView` has only a `WKWebView` to load the article URL.
 
 In the `ListView` I added a simple `SegmentedControl` where the user can select the period (1 day, 7 days or 30 days).
+
+Reviewing this project I could've used git flow but I didn't thought about it when I started it, probably because it was a small project and it was just me pushing the changes.
