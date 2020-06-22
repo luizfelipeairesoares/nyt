@@ -8,7 +8,7 @@ The minimum `iOS` version supported is **13.0**.
 
 ## Architecture
 
-Since it's a small project, I decided the MVC approach, but not the way we see around.
+Since it's a small project, I decided to use the MVC approach, but not the way we see around there.
 
  - The `View` classes (for example the `ListView`) has all the UI components.
  - The `ViewController` classes manages the data that is shown in the view and communicates with the `Services` classes. `ViewControllers` also conforms to `Protocols` created for them. The idea is to inject the dependencies that the class will need. Also it helps when developing the unit tests.
