@@ -36,4 +36,4 @@ I could not find any API to show the article detail. That's why the `DetailView`
 
 In the `ListView` I added a simple `SegmentedControl` where the user can select the period (1 day, 7 days or 30 days).
 
-Reviewing this project I could've used git flow but I didn't thought about it when I started it, probably because it was a small project and it was just me pushing the changes.
+Reviewing this project I noticed that I could've used git flow but I didn't thought about it when I started it, probably because it was a small project and it was just me pushing the changes.
