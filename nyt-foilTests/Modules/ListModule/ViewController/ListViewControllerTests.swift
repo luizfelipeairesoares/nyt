@@ -114,5 +114,21 @@ class ListViewControllerTests: XCTestCase {
         
         XCTAssertNotNil(navController.topViewController as? DetailViewController)
     }
+    
+    func testSectionHeaderView() throws {
+        let controller = (viewController as! ListViewController)
+        let view = (controller.view as! ListView)
+        let tableView = view.tableView
+        
+        XCTAssertNil(tableView.delegate?.tableView?(tableView, viewForHeaderInSection: 0))
+    }
+    
+    func testFooterHeight() throws {
+        let controller = (viewController as! ListViewController)
+        let view = (controller.view as! ListView)
+        let tableView = view.tableView
+        
+        XCTAssertEqual(tableView.delegate?.tableView?(tableView, heightForFooterInSection: 0), 8.0)
+    }
 
 }
