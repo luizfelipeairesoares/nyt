@@ -30,6 +30,14 @@ class ListViewTests: XCTestCase {
     override func tearDownWithError() throws {
         try super.tearDownWithError()
     }
+    
+    func testProperties() throws {
+        XCTAssertNotNil(listView.periodControl)
+        XCTAssertNotNil(listView.tableView)
+        
+        XCTAssertTrue(listView.periodControl.superview is ListView)
+        XCTAssertTrue(listView.tableView.superview is ListView)
+    }
 
     func testDelegate() throws {
         let delegate = SpyDelegate()
